@@ -23,9 +23,9 @@ font = pygame.font.SysFont(None, 35)
 
 # Inicializar el mixer de Pygame para sonidos
 pygame.mixer.init()
-eat_sound = pygame.mixer.Sound("eat.wav")
-die_sound = pygame.mixer.Sound("die.wav")
-pygame.mixer.music.load("arcade.mp3")
+eat_sound = pygame.mixer.Sound("sounds/eat.wav")
+die_sound = pygame.mixer.Sound("sounds/die.wav")
+pygame.mixer.music.load("sounds/arcade.mp3")
 
 class Snake:
     def __init__(self):
